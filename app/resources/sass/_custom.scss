@@ -1,0 +1,25 @@
+/*
+ * ============== TYPOGRAPHY ==============
+ */
+
+strong {
+    font-weight: bold !important;
+}
+
+/*
+ * =========== FORM VALIDATION ============
+ */
+
+.has-danger {
+    .input-group {
+        border: 1px solid #fb6340 !important;
+    }
+}
+
+.is-invalid {
+    color: #fb6340 !important;
+}
+
+.is-invalid:focus {
+    color: inherit !important;
+}
